@@ -11,7 +11,7 @@ class Warrior extends Archetype {
     Warrior._WarriorInstances += 1;
   }
 
-  get energyType(): EnergyType {
+  override get energyType(): EnergyType {
     return this._damage;
   }
 

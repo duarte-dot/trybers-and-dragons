@@ -11,7 +11,7 @@ class Necromancer extends Archetype {
     Necromancer._NecromancerInstances += 1;
   }
 
-  get energyType(): EnergyType {
+  override get energyType(): EnergyType {
     return this._damage;
   }
 

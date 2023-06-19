@@ -11,7 +11,7 @@ class Mage extends Archetype {
     Mage._MageInstances += 1;
   }
 
-  get energyType(): EnergyType {
+  override get energyType(): EnergyType {
     return this._damage;
   }
 

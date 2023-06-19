@@ -11,7 +11,7 @@ class Ranger extends Archetype {
     Ranger._RangerInstances += 1;
   }
 
-  get energyType(): EnergyType {
+  override get energyType(): EnergyType {
     return this._damage;
   }
 
