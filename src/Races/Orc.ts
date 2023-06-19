@@ -19,7 +19,7 @@ class Orc extends Race {
     return this._maxLifePoints;
   }
 
-  public static createdRacesInstances(): number {
+  public static override createdRacesInstances(): number {
     return this._OrcInstances;
   }
 }
