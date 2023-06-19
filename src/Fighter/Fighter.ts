@@ -1,4 +1,4 @@
-import { EnergyType as Energy } from '../types/EnergyType';
+import Energy from '../Energy';
 
 interface Fighter {
   lifePoints: number;
