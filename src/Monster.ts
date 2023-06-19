@@ -1,8 +1,8 @@
 import { SimpleFighter } from './Fighter';
 
 class Monster implements SimpleFighter {
-  _lifePoints: number;
-  _strength: number;
+  protected _lifePoints: number;
+  protected _strength: number;
 
   constructor() {
     this._lifePoints = 85;
