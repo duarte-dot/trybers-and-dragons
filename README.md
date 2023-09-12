@@ -1,13 +1,28 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+# Trybers and dragons
+Este projeto em TypeScript implementa um sistema de RPG com classes, heranças e interfaces para criar personagens, raças, arquétipos e monstros. O projeto atende aos seguintes requisitos:
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+## Classes e Heranças
+- Race: Classe base para criar raças.
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+- Classes que herdam de Race: Implementam raças específicas.
+
+- Energy: Interface para gerenciar a energia dos personagens.
+
+- Archetype: Classe base para criar arquétipos.
+
+- Classes que herdam de Archetype: Implementam arquétipos específicos.
+
+- Fighter: Interface para personagens que podem lutar.
+
+- Character: Classe que representa os personagens jogáveis.
+
+## Interface SimpleFighter
+SimpleFighter: Interface para personagens que participam de combates.
+
+## Classes de Monstros e Confronto
+Monster: Classe para criar monstros.
+PVP: Classe para criar confrontos entre personagens jogáveis.
+
+## Requisitos Bônus
+- PVE: Classe para criar confrontos entre personagens jogáveis e monstros.
+- Dragon: Classe para criar dragões como tipo especial de monstros.
