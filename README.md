@@ -1,28 +1,35 @@
-# Trybers and dragons
-Este projeto em TypeScript implementa um sistema de RPG com classes, heranças e interfaces para criar personagens, raças, arquétipos e monstros. O projeto atende aos seguintes requisitos:
+# Trybers and Dragons
 
-## Classes e Heranças
-- Race: Classe base para criar raças.
+This TypeScript project implements an RPG system with classes, inheritance, and interfaces to create characters, races, archetypes, and monsters. The project meets the following requirements:
 
-- Classes que herdam de Race: Implementam raças específicas.
+## Classes and Inheritance
 
-- Energy: Interface para gerenciar a energia dos personagens.
+- Race: Base class for creating races.
+  
+- Subclasses inheriting from Race: Implement specific races.
 
-- Archetype: Classe base para criar arquétipos.
+- Energy: Interface for managing characters' energy.
 
-- Classes que herdam de Archetype: Implementam arquétipos específicos.
+- Archetype: Base class for creating archetypes.
 
-- Fighter: Interface para personagens que podem lutar.
+- Subclasses inheriting from Archetype: Implement specific archetypes.
 
-- Character: Classe que representa os personagens jogáveis.
+- Fighter: Interface for characters capable of combat.
 
-## Interface SimpleFighter
-SimpleFighter: Interface para personagens que participam de combates.
+- Character: Class representing playable characters.
 
-## Classes de Monstros e Confronto
-Monster: Classe para criar monstros.
-PVP: Classe para criar confrontos entre personagens jogáveis.
+## SimpleFighter Interface
 
-## Requisitos Bônus
-- PVE: Classe para criar confrontos entre personagens jogáveis e monstros.
-- Dragon: Classe para criar dragões como tipo especial de monstros.
+SimpleFighter: Interface for characters participating in combat.
+
+## Monster Classes and Combat
+
+Monster: Class for creating monsters.
+
+PVP: Class for creating confrontations between playable characters.
+
+## Bonus Requirements
+
+- PVE: Class for creating confrontations between playable characters and monsters.
+
+- Dragon: Class for creating dragons as a special type of monster.
